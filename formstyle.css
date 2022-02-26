@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+
+}
+
+.container{
+    background-color: aliceblue;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px black;
+    width: 400;
+    padding: 20px;
+
+}
+form > input {
+    width: 100%;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+#sd{
+    background-color: rgb(44, 176, 228);
+    border-radius: 6px;
+    color: black;
+}
